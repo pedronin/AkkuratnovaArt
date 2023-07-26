@@ -193,7 +193,7 @@ const handleLocation = async () => {
 
 window.route = route;
 window.onpopstate = handleLocation;
-handleLocation()
+// handleLocation()
 
 /***/ }),
 
