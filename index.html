@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Создаю интерьерные картины на заказ и провожу мастер-классы в технике Флюид арт на праздниках и вечеринках"/>
+  <title>Абстрактные интерьерные картины на заказ</title>
+  <link rel="preload" href="fonts/EstylleMadison.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/ForumRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/UbuntuLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <div class="sidebar">
+  <div class="container sidebar__container">
+    <h1 class="logo">Anna Akkuratnova art</h1>
+    <nav class="nav" title="Главное меню" data-menu>
+      <ul class="list-reset nav__list">
+        <li class="nav__item"><a href="/" class="nav__link" data-menu-item data-scroll>главная</a></li>
+        <li class="nav__item"><a href="info" class="nav__link" data-menu-item data-scroll>о художнике</a></li>
+        <li class="nav__item"><a href="paintings" class="nav__link" data-menu-item data-scroll>картины</a></li>
+        <li class="nav__item">
+          <a href="holidmaster" class="nav__link" data-menu-item data-scroll>праздники и мастер-классы</a>
+        </li>
+        <li class="nav__item">
+          <a href="masterclass" class="nav__link" data-menu-item data-scroll>о мастер-классе</a>
+        </li>
+        <li class="nav__item"><a href="reviews" class="nav__link" data-menu-item data-scroll>отзывы</a></li>
+        <li class="nav__item"><a href="cost" class="nav__link" data-menu-item data-scroll>стоимость</a></li>
+        <!-- <li class="nav__item"><a href="" class="nav__link" data-menu-item data-scroll>контакты</a></li> -->
+      </ul>
+      <ul class="list-reset socials__list">
+        <li class="socials__item">
+          <a href="https://vk.com/a_akkuratnova" target="_blank" class="socials__link"
+          ><img src="./img/svg/vk.svg" alt="Vk"
+          /></a>
+        </li>
+        <li class="socials__item">
+          <a href="https://wa.me/+79269675320" target="_blank" class="socials__link"
+          ><img src="./img/svg/whatsapp.svg" alt="WhatsApp"
+          /></a>
+        </li>
+        <li class="socials__item">
+          <a href="https://www.instagram.com/p/CW80J7foJ1Y/?igshid=YmMyMTA2M2Y=" target="_blank" class="socials__link"
+          ><img src="./img/svg/instagram.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li class="socials__item">
+          <a href="https://t.me/Manja333" target="_blank" class="socials__link"
+            ><img src="./img/svg/telegram.svg" alt="Telegram"
+          /></a>
+        </li>
+      </ul>
+      <a class="phone" href="tel:+79269675320">+7 926 967-53-20</a>
+
+      <button class="btn-reset burger-close" aria-label="Закрыть меню" data-menu-close></button>
+    </nav>
+  </div>
+  <div class="burger-wrapper">
+    <button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</div>
+
+    <main class="main">
+
+    </main>
+    <footer class="footer">
+  <div class="container"></div>
+</footer>
+
+ 
+
+
+
+<div id="ModalProduct1" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct1">×</span>
+    <div class="swiper swiper1 swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod1-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod1-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod1-3.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod1-4.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct2" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct2">×</span>
+    <div class="swiper swiper2 swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod2-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod2-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct3" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct3">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-3.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod3-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod3-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct4" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct4">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-4.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod4-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod4-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct5" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct5">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-5.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod5-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod5-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct6" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct6">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-6.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod6-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct7" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct7">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-7.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod7-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod7-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod7-3.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod7-4.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct8" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct8">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-8.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod8-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod8-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct9" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct9">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-9.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod9-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct10" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct10">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-10.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod10-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalProduct11" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct11">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-11.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod11-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod11-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct12" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct12">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-12.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod12-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct13" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct13">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-13.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod13-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod13-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod13-3.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct14" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct14">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-14.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod14-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct15" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct15">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-15.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod15-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod15-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod15-3.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod15-4.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct16" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct16">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-16.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod16-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct17" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct17">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-17.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod17-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod17-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct18" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct18">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-18.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod18-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct19" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct19">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-19.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod19-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod19-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct20" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct20">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-20.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod20-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct21" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct21">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-21.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod21-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod21-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod21-3.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct22" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct22">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-22.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod22-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct23" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct23">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-23.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod23-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct24" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct24">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-24.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod24-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod24-2.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct25" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct25">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-25.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod25-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct26" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct26">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-26.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod26-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod26-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod26-3.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod26-4.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+<div id="ModalProduct27" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="ModalProduct27">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/products/product-27.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="img/prod/prod27-1.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="Exhibitions1" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="Exhibitions1">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions1-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions1-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions1-3.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="Exhibitions2" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="Exhibitions2">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions2-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions2-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions2-3.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="Exhibitions3" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="Exhibitions3">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions3-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions3-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions3-3.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="Exhibitions4" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="Exhibitions4">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions4-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions4-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions4-3.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="Exhibitions5" class="modal">
+  <div class="modal-content">
+    <span class="close cursor" data-close="Exhibitions5">×</span>
+    <div class="swiper swiper__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions5-2.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions5-1.jpg" style="width: 100%" />
+        </div>
+        <div class="swiper-slide swiper-item">
+          <img loading="lazy" class="swiper-img" src="./img/exhibitions/exhibitions5-3.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <a class="swiper-arrow-prev">
+        <div class="swiper__button">❮</div>
+       </a>
+      <a class="swiper-arrow-next">
+        <div class="swiper__button">❯</div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="ModalParticipants" class="modal">
+  <div class="modal-content swiper__content">
+    <span class="close cursor" data-close="ModalParticipants">×</span>
+
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-8.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-9.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-10.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-11.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-12.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-13.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-14.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-15.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-16.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-17.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-18.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-19.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <img class="swiper-img" src="img/participants/participants-20.jpg" style="width:100%">
+    </div>
+
+    <a class="swiper-arrow-prev" onclick="plusSlides(-1)">
+    <div class="swiper__button">❮</div></a>
+    <a class="swiper-arrow-next" onclick="plusSlides(1)">
+      <div class="swiper__button">❯</div>
+    </a>
+</div>
+</div>
+
+<script>
+  document.addEventListener('click', event => {
+
+    const type = event.target.dataset.open
+    if (type) {
+      document.getElementById(type).style.display = "block"
+      document.querySelector('body').style.overflowY = "hidden"
+    }
+
+    const close = event.target.dataset.close
+    if (close) {
+      document.getElementById(close).style.display = "none"
+      document.querySelector('body').style.overflowY = "visible"
+    }
+
+  })
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  const slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+
+</script>
+
+  </div>
+  <!-- <script src="./js/components/routing.js"></script> -->
+</body>
+
+</html>
