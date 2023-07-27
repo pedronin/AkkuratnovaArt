@@ -174,7 +174,7 @@ function route(url) {
 
 const routers = {
   "/": "about.html",
-  "/info": "info.html",
+  "/info": "exhibitions.html",
   "/exhibitions": "exhibitions.html",
 
   "/paintings": "products.html",
@@ -189,11 +189,15 @@ const handleLocation = async () => {
   console.log(path);
   const html = await fetch(routers[path]).then(data => data.text())
   document.querySelector('.main').innerHTML = html
+  // document.querySelector('.main').innerHTML = `
+  // <?php
+  //   require "${routers[path]}";
+  // ?>`
 };
 
 window.route = route;
 window.onpopstate = handleLocation;
-// handleLocation()
+handleLocation()
 
 /***/ }),
 
