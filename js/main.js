@@ -158,46 +158,46 @@ __webpack_require__.r(__webpack_exports__);
   \**************************************/
 /***/ (() => {
 
-// const reference = document.querySelectorAll(".nav__link");
+const reference = document.querySelectorAll(".nav__link");
 
-// for (let i = 0; i < reference.length; i++) {
-//   reference[i].addEventListener("click", (e) => {
-//     e.preventDefault();
-//     route(e.target.href);
-//   });
-// }
+for (let i = 0; i < reference.length; i++) {
+  reference[i].addEventListener("click", (e) => {
+    e.preventDefault();
+    route(e.target.href);
+  });
+}
 
-// function route(url) {
-//   window.history.pushState({}, "", url);
-//   handleLocation()
-// }
+function route(url) {
+  window.history.pushState({}, "", url);
+  handleLocation()
+}
 
-// const routers = {
-//   "/": "about.html",
-//   "/info": "exhibitions.html",
-//   "/exhibitions": "exhibitions.html",
+const routers = {
+  "/": "about.html",
+  "/info": "exhibitions.html",
+  "/exhibitions": "exhibitions.html",
 
-//   "/paintings": "products.html",
-//   "/holidmaster": "holidmaster.html",
-//   "/masterclass": "masterclass.html",
-//   "/reviews": "reviews.html",
-//   "/cost": "cost.html",
-// };
+  "/paintings": "products.html",
+  "/holidmaster": "holidmaster.html",
+  "/masterclass": "masterclass.html",
+  "/reviews": "reviews.html",
+  "/cost": "cost.html",
+};
 
-// const handleLocation = async () => {
-//   const path = window.location.pathname;
-//   console.log(path);
-//   const html = await fetch(routers[path]).then(data => data.text())
-//   document.querySelector('.main').innerHTML = html
-//   // document.querySelector('.main').innerHTML = `
-//   // <?php
-//   //   require "${routers[path]}";
-//   // ?>`
-// };
+const handleLocation = async () => {
+  const path = window.location.pathname;
+  console.log(path);
+  const html = await fetch(routers[path]).then(data => data.text())
+  document.querySelector('.main').innerHTML = html
+  // document.querySelector('.main').innerHTML = `
+  // <?php
+  //   require "${routers[path]}";
+  // ?>`
+};
 
-// window.route = route;
-// window.onpopstate = handleLocation;
-// handleLocation()
+window.route = route;
+window.onpopstate = handleLocation;
+handleLocation()
 
 /***/ }),
 
