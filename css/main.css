@@ -288,9 +288,8 @@ a {
     width: 100%;
     padding: 20px 0 20px 0;
     height: 70px;
-    background-color: #ececec;
+    background-color: #fefefe;
     z-index: 1000;
-    position: absolute;
   }
 }
 .sidebar__container {
